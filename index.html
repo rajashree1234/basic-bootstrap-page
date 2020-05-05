@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>life</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style >
+	
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.container img{
+	height: 100%;
+	width:100%;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+</style>
+	
+	
+</head>
+<body>
+	<div class="container" style="height: 200px;width: 800px;">
+		<img  class="img-fluid" src="images/topicon.png" style="position: relative;left: 110px;height: 80px;width: 80px;top: 10px;">
+        <p style="position: relative;bottom:80px;font-size:5vw;color: lightblue;left: 210px;">Healthy<b>Life</b></p>
+        <p style="position: relative;font-size: 2vw;left: 220px;bottom: 100px;">An Elegant Life Style</p>
+
+</div>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="font-size: 3vw">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="font-size: 3vw">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="font-size: 3vw">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style="font-size: 3vw">Message</a>
+  </li>
+</ul>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/car1.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-caption">
+
+    <h3 style="font-size: 3vw">
+    She Alteration Everything...</h3>
+    <p style="font-size: 2vw">It bachelor cheerful of mistaken.Tore has sons put upon wife used bred seen</p>
+</div>
+    	
+    </div>
+    <div class="carousel-item">
+      <img src="images/car2.jpg.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/car3.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+
+
+
+  <div class="row">
+  	<div class="col-xl-1"></div>
+    <div  class="col-xl-6" style="background-color:beige">
+    <div>
+      <h2 style="position: relative;left: 20px;font-size: 3vw">Applauded Attempted Strangers</h2>
+
+    </div>
+    <div class="container" style="height: 300px;width: 500px">
+       <img class="img-fluid" src="images/pic1.jpg">
+    </div>
+    <div class="container" >
+    <p style="text-align: center;">An athlete is a master of the science behind his sport. Which muscles to exercise, the right skills, the impact of diet and which medicines are allowed. Figure out the science behind the interview and selection process of the company.</p>
+    </div>
+    <button  style="padding: 15px;color: white;background-color: mediumseagreen">
+    continue reading
+    </button>
+    <a href="#">
+    <img class="img-fluid" src="images/face.png" style="height: 32px;width: 32px;position: relative;left: 100px;"></a>
+    <a href="#"><img class="img-fluid" src="images/twitter.png" style="height: 32px;width: 32px;position: relative;left: 150px;"></a>
+    <a href="#"><img class="img-fluid" src="images/instagram.png" style="height: 32px;width: 32px;position: relative;left: 200px;"></a>
+
+  </div>
+  <div class="col-xl-1"></div>
+  <br>
+  <div class="col-xl-3">
+  <div class="container" style="height: 250px;width: 350px;background-color: beige;position: relative;right: 30px;">
+  	
+  	<h2 style="font-size: 20px;">Social</h2>
+  	<a href="#"><div style="height:40px;width: 300px;background-color: blue;position: relative;top: 39px;"></div>
+  	<img src="images/facebook.png" style="position: absolute;height: 40px;width: 40px;"></a>
+  	<p style="color: white;position: relative;left: 70px;">like us on facebook</p>
+  	<br>
+  	<a href="#">
+  	<div style="height:40px;width: 300px;background-color: red;position: relative;">
+  	 <img src="images/google.png" style="height: 40px;width: 40px;position: absolute;"></a>
+    <p style="color: white;position: relative;left: 70px">circle us on google+</p></div>
+  	<br>
+  	
+  	
+  </div><br>
+  	<div style="height: 350px;width: 350px;background: beige;position: relative;right: 15px;">
+  		<h2 style="font-size: 20px;position: relative;left: 30px;">I am the author</h2>
+  		<img src="images/user.png" style="position: absolute;height: 32px;width: 32px;left: 160px;top: 50px;z-index: 1">
+  		<div style="width: 250px;height: 220px;background-color: mediumseagreen;position: relative;left: 50px;top: 30px;">
+  			<p style="color: white;position: relative;top: 60px;">
+  			Hello,my name is Jack Daniel.I am 50 years old self employed</p>
+  		</div>
+  		
+  	</div></div>
+	
+</div>
+<div class="col-xl-1"></div></div>
+
+  <br>
+  <br>
+  <div class="row">
+  	<div class="col-xl-1"></div>
+    <div  class="col-xl-6" style="background-color:beige">
+    <div>
+      <h2 style="position: relative;left: 20px;font-size: 3vw">Pleased Anxious As In Viewing</h2>
+
+    </div>
+    <div class="container" style="height: 300px;width: 500px">
+       <img class="img-fluid" src="images/pic2.jpg">
+    </div>
+    <div class="container" >
+    <p style="text-align: center;">An athlete is a master of the science behind his sport. Which muscles to exercise, the right skills, the impact of diet and which medicines are allowed. Figure out the science behind the interview and selection process of the company.</p>
+    </div>
+    <button  style="padding: 15px;color: white;background-color: mediumseagreen">
+    continue reading
+    </button>
+    <a href="#">
+    <img class="img-fluid" src="images/face.png" style="height: 32px;width: 32px;position: relative;left: 100px;"></a>
+    <a href="#"><img class="img-fluid" src="images/twitter.png" style="height: 32px;width: 32px;position: relative;left: 150px;"></a>
+    <a href="#"><img class="img-fluid" src="images/instagram.png" style="height: 32px;width: 32px;position: relative;left: 200px;"></a>
+
+    
+
+  </div>
+  <div class="col-xl-1"></div><br>
+  <div class="col-xl-3">
+  <div class="container" style="height: 250px;width: 350px;background-color: beige;position: relative;right: 30px;"><h2 style="font-size: 20px;">NewsLetter</h2>
+  	<div style="height: 50px;width: 300px;background-color: mediumseagreen;position: relative;left: 10px;color: white;"><p style="position: relative;left: 70px;">
+  	Join our NewsLetter</p></div>
+  	<img src="images/envelope.png" style="position: absolute;top:70px;height: 32px;width: 32px;left: 150px;">
+  	<br>
+  	<p style="text-align: center;">get all the latest updates delivered straight into your inbox!</p>
+  	<div style="position: relative;left: 60px;">
+  		<p  style="position: absolute;opacity: 0.3;left: 30px;">enter your email-id</p>
+  		<div>
+  	<label for="fname"></label>
+  <input type="text" id="fname" name="fname"></div><br>
+  <button style="position: relative;left: 50px;background-color: mediumseagreen;bottom: 20px;color: white;" >join now</button></div>
+  <br></div><br>
+  	<div style="height: 350px;width: 350px;background: beige;position: relative;right: 25px;"><h2 style="font-size: 20px;position: relative;left: 60px">Popular posts</h2>
+  		<img class="img-fluid" src="images/pop1.jpg" style="height: 150px;position: relative;top: 20px;left: 30px;width: 280px"><br>
+  		<img class="img-fluid" src="images/pop2.jpg" style="height: 150px;position: relative;top:30px;left: 30px;width: 280px ">
+  		
+  	</div></div>
+	
+</div>
+<div class="col-xl-1"></div></div>
+
+  <br>
+  <br>
+
+  <div class="row">
+  	<div class="col-xl-1"></div>
+    <div  class="col-xl-6" style="background-color:beige">
+    <div>
+      <h2 style="position: relative;left: 20px;font-size: 3vw">Particular Way The Roughly</h2>
+
+    </div>
+    <div class="container" style="height: 300px;width: 500px">
+       <img class="img-fluid" src="images/pic3.jpg">
+    </div>
+    <div class="container" >
+    <p style="text-align: center;">An athlete is a master of the science behind his sport. Which muscles to exercise, the right skills, the impact of diet and which medicines are allowed. Figure out the science behind the interview and selection process of the company.</p>
+    </div>
+    <button  style="padding: 15px;color: white;background-color: mediumseagreen">
+    continue reading
+    </button>
+    <a href="#">
+    <img class="img-fluid" src="images/face.png" style="height: 32px;width: 32px;position: relative;left: 100px;"></a>
+    <a href="#"><img class="img-fluid" src="images/twitter.png" style="height: 32px;width: 32px;position: relative;left: 150px;"></a>
+    <a href="#"><img class="img-fluid" src="images/instagram.png" style="height: 32px;width: 32px;position: relative;left: 200px;"></a>
+
+    
+
+  </div>
+  <div class="col-xl-1"></div><br>
+  <div class="col-xl-3">
+  <div class="container" style="height: 250px;width: 350px;background-color: beige;position: relative;right: 30px;">
+  	<h2 style="font-size: 20px;position: relative ;color: black;">Labels</h2>
+     <div class="container" style="height: 40px;width: 230px;background-color: mediumseagreen;position: relative;"><br>
+     	<p style="color: white;position: relative;bottom: 20px;left: 30px;">Sports</p>
+         <div style="height: 40px;width: 40px;background-color: black;position: absolute;z-index: 1;left: 190px;bottom: 1px;"><p style="color: white;position: relative;left: 10px;">5</p></div></div><br>
+     <div class="container" style="height: 40px;width: 230px;background-color: mediumseagreen;position: relative;">
+     	<p style="color: white;position: relative;left: 30px;">Technology</p><div style="height: 40px;width: 40px;background-color: black;position: absolute;z-index: 1;left: 190px;bottom: 1px;">
+     		<p style="color: white;position: relative;left: 10px;">3</p>
+     	</div></div><br>
+     
+     <div class="container" style="height: 40px;width: 230px;background-color: mediumseagreen;position: relative;">
+     	<p style="color: white;position: relative;left: 30px;">Beauty</p>
+     	<div style="height: 40px;width: 40px;background-color: black;position: absolute;z-index: 1;left: 190px;bottom: 1px;">
+     		<p style="color: white;position: relative;left: 10px;">7</p>
+     	</div>
+     </div><br>
+     
+      </div><br>
+  	</div>
+	
+</div>
+<div class="col-xl-1"></div></div>
+
+  <br>
+  <br>
+<!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Healthy Life</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+  
+
+  
+    
+
+</body>
+</html>
